@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-19T23:13:58 EDT" name="Default suite" finished-at="2021-05-19T23:14:09 EDT" duration-ms="10738">
+  <suite started-at="2021-05-19T23:47:51 EDT" name="Default suite" finished-at="2021-05-19T23:47:56 EDT" duration-ms="4587">
     <groups>
     </groups>
-    <test started-at="2021-05-19T23:13:58 EDT" name="Default test" finished-at="2021-05-19T23:14:09 EDT" duration-ms="10738">
-      <class name="testcases.TC_003_DataWithDataProvider">
-        <test-method signature="tc_001_AddBooks(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_003_DataWithDataProvider@223aa2f7]" started-at="2021-05-19T23:13:58 EDT" name="tc_001_AddBooks" data-provider="BooksData" finished-at="2021-05-19T23:14:07 EDT" duration-ms="9043" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hjgb]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[154]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2021-05-19T23:47:51 EDT" name="Default test" finished-at="2021-05-19T23:47:56 EDT" duration-ms="4587">
+      <class name="testcases.TC_004_JsonDataFromFile">
+        <test-method signature="tc_001_AddBooks()[pri:0, instance:testcases.TC_004_JsonDataFromFile@4e096385]" started-at="2021-05-19T23:47:51 EDT" name="tc_001_AddBooks" finished-at="2021-05-19T23:47:56 EDT" duration-ms="4500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_001_AddBooks -->
-        <test-method signature="tc_001_AddBooks(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_003_DataWithDataProvider@223aa2f7]" started-at="2021-05-19T23:14:07 EDT" name="tc_001_AddBooks" data-provider="BooksData" finished-at="2021-05-19T23:14:08 EDT" duration-ms="774" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vchvc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2435]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_001_AddBooks -->
-        <test-method signature="tc_001_AddBooks(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_003_DataWithDataProvider@223aa2f7]" started-at="2021-05-19T23:14:08 EDT" name="tc_001_AddBooks" data-provider="BooksData" finished-at="2021-05-19T23:14:09 EDT" duration-ms="741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hfdh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[35435]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_001_AddBooks -->
-      </class> <!-- testcases.TC_003_DataWithDataProvider -->
+      </class> <!-- testcases.TC_004_JsonDataFromFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

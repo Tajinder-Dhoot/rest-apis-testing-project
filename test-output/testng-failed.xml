@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC_002_LibraryApiTesting">
+      <class name="testcases.TC_004_JsonDataFromFile">
         <methods>
-          <include name="tc_001_AddBookToLibrary"/>
+          <include name="tc_001_AddBooks"/>
         </methods>
-      </class> <!-- testcases.TC_002_LibraryApiTesting -->
+      </class> <!-- testcases.TC_004_JsonDataFromFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
